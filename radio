@@ -1,0 +1,12 @@
+import math
+
+# Solicitar al usuario el radio del círculo
+radio = float(input("Ingresa el radio del círculo: "))
+
+# Calcular la superficie y circunferencia del círculo
+superficie = math.pi * radio**2
+circunferencia = 2 * math.pi * radio
+
+# Imprimir la superficie y circunferencia del círculo
+print(f"La superficie del círculo es: {superficie}")
+print(f"La circunferencia del círculo es: {circunferencia}")
